@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/html" xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>GoodTime</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link href="css/baseStyle.css" rel="stylesheet">
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">GoodTime</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="download.html">下载</a></li>
+                <li><a href="skin.html">皮肤站</a></li>
+                <li><a href="shop.html">游戏商店</a></li>
+                <li><a href="http://bbs.mcgoodtime.com">论坛</a></li>
+                <li class="active"><a href="help.html">帮助</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<br/>
+<br/>
+<br/>
+<div class="container">
+    <h1>常见问题疑难解答</h1>
+
+    <div class="block" id="smallRegister" style="display:block">
+        <p class="center">
+            <a href="javascript:" onclick="document.getElementById('fullRegister').style.display=(document.getElementById('fullRegister').style.display=='none')?'':'none';document.getElementById('smallRegister').style.display=(document.getElementById('smallRegister').style.display=='none')?'':'none'" >
+                <h3>怎么注册？<span class="label label-default">展开</span></h3>
+            </a>
+        </p>
+    </div>
+    <div class="block" id="fullRegister" style="display:none;">
+        <p class="center">
+            <a href="javascript:" onclick="document.getElementById('fullRegister').style.display=(document.getElementById('fullRegister').style.display=='none')?'':'none';document.getElementById('smallRegister').style.display=(document.getElementById('smallRegister').style.display=='none')?'':'none'" >
+                <h3>怎么注册？<span class="label label-default">关闭</span></h3>
+            </a>
+        </p>
+
+        <div class="well">
+            <h4>服务器中关闭注册功能，您需要前往GoodTime服务器论坛进行注册，地址：<a href="http://bbs.mcgoodtime.com">http://bbs.mcgoodtime.com</a></h4>
+            <h4>点击右上角的立即注册。</h4>
+            <img src="image/help/registernow.png" alt="立即注册" class="img-rounded">
+            <br/><br/><br/>
+            <h4>写上您常用的电子邮箱，并输入验证码</h4>
+            <img src="image/help/register1.png" alt="注册1" class="img-rounded">
+            <h5>例如：</h5>
+            <img src="image/help/register2.png" alt="注册2" class="img-rounded">
+            <br/><br/><br/>
+            <h4>提交注册后，系统将会发送一封邮件到你的邮箱，里面含有注册链接</h4>
+            <img src="image/help/register3.png" alt="注册3" class="img-rounded">
+            <h4>现在，打开你的邮箱</h4>
+            <h4>点击邮件中的链接</h4>
+            <img src="image/help/register4.png" alt="注册4" class="img-rounded">
+            <br/><br/><br/>
+            <img src="image/help/register5.png" alt="注册5" class="img-rounded">
+            <h4>（用户名和服务器中的 玩家名/游戏名 一致）</h4>
+            <br/><br/><br/>
+            <h3>恭喜，您现在已经注册完成，赶快进入服务器吧！</h3>
+        </div>
+    </div>
+
+    <div class="block" id="smallLogin" style="display:block">
+        <p class="center">
+            <a href="javascript:" onclick="document.getElementById('fullLogin').style.display=(document.getElementById('fullLogin').style.display=='none')?'':'none';document.getElementById('smallLogin').style.display=(document.getElementById('smallLogin').style.display=='none')?'':'none'" >
+                <h3>怎么登陆？<span class="label label-default">展开</span></h3>
+            </a>
+        </p>
+    </div>
+    <div class="block" id="fullLogin" style="display:none;">
+        <p class="center">
+            <a href="javascript:" onclick="document.getElementById('fullLogin').style.display=(document.getElementById('fullLogin').style.display=='none')?'':'none';document.getElementById('smallLogin').style.display=(document.getElementById('smallLogin').style.display=='none')?'':'none'" >
+                <h3>怎么登陆？<span class="label label-default">关闭</span></h3>
+            </a>
+        </p>
+
+        <div class="well">
+            <h4>进入服务器后，您需要先进行登陆。</h4>
+            <img src="image/help/login1.png" alt="登陆1" class="img-rounded">
+            <h4>输入 “/login 论坛账号密码” （不带引号）即可完成登陆</h4>
+            <h5>（论坛账号密码就是注册论坛时所填的密码） 例如：”/login 123456”</h5>
+            <br/><br/><br/>
+            <img src="image/help/login2.png" alt="登陆2" class="img-rounded">
+            <br/><br/><br/>
+            <h3>恭喜你，你已经成功登陆，尽情玩耍吧！</h3>
+        </div>
+    </div>
+
+    <div class="block" id="smallLaunchAndJoin" style="display:block">
+        <p class="center">
+            <a href="javascript:" onclick="document.getElementById('fullLaunchAndJoin').style.display=(document.getElementById('fullLaunchAndJoin').style.display=='none')?'':'none';document.getElementById('smallLaunchAndJoin').style.display=(document.getElementById('smallLaunchAndJoin').style.display=='none')?'':'none'" >
+                <h3>怎么启动游戏并加入服务器？<span class="label label-default">展开</span></h3>
+            </a>
+        </p>
+    </div>
+    <div class="block" id="fullLaunchAndJoin" style="display:none;">
+        <p class="center">
+            <a href="javascript:" onclick="document.getElementById('fullLaunchAndJoin').style.display=(document.getElementById('fullLaunchAndJoin').style.display=='none')?'':'none';document.getElementById('smallLaunchAndJoin').style.display=(document.getElementById('smallLaunchAndJoin').style.display=='none')?'':'none'" >
+                <h3>怎么启动游戏并加入服务器？<span class="label label-default">关闭</span></h3>
+            </a>
+        </p>
+
+        <div class="well">
+            <h4>首先，您需要下载Minecraft-GoodTime专用客户端</h4>
+            <h5>下载地址：<a href="download.html">http://mcgoodtime.com/download.html</a></h5>
+            <br/><br/><br/>
+            <h4>下载完成后，打开安装包安装</h4>
+            <h5>如果是压缩包请手动解压</h5>
+            <br/><br/><br/>
+            <h4>打开HMCL启动器</h4>
+            <img src="image/help/hmcl.png" alt="hmcl" class="img-rounded">
+            <h5 style="color: red">（如无需要，请不要更改启动器的任何设置，否则可能导致无法启动）</h5>
+            <br/><br/><br/>
+            <h4>不需要更改任何设置，只需要写上您的游戏名，立即启动。</h4>
+            <img src="image/help/launch.png" alt="启动游戏" class="img-rounded">
+            <br/><br/><br/>
+            <h5>如果您无法启动客户端，请前往论坛发帖求助。</h5>
+        </div>
+    </div>
+</div>
+
+<iframe id="lowbar" src="lowbar.html" frameborder="0" width="1600" height="795" ></iframe>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
